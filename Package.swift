@@ -13,11 +13,20 @@ let package = Package(
             targets: ["ICTMDBNavigationManagerSwiftUI"]
         ),
     ],
+    dependencies: [
+        .package(url: "https://github.com/engingulek/HPDependencyKit", from: "1.0.0"),
+        .package(url: "https://github.com/engingulek/ICTMDBModularProtocols", branch: "version/swiftui")
+    ],
+    
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
-            name: "ICTMDBNavigationManagerSwiftUI"
+            name: "ICTMDBNavigationManagerSwiftUI",
+            dependencies: [
+                .product(name: "DependencyKit",package: "HPDependencyKit"),
+                .product(name: "ICTMDBModularProtocols", package: "ICTMDBModularProtocols")
+            ]
         ),
 
     ]

@@ -1,0 +1,33 @@
+{
+  "originHash" : "7f937dce43b302eda66494e53e08272ea02393a86fd5ab037a20f5c6668d84f1",
+  "pins" : [
+    {
+      "identity" : "hpdependencykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/HPDependencyKit",
+      "state" : {
+        "revision" : "c9305c28ff55ad6eb257fbcfd014f49be7d8f47a",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "ictmdbmodularprotocols",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/engingulek/ICTMDBModularProtocols",
+      "state" : {
+        "branch" : "version/swiftui",
+        "revision" : "3c10e059725c98eef082132e9bd524acb849fde1"
+      }
+    },
+    {
+      "identity" : "swinject",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Swinject/Swinject.git",
+      "state" : {
+        "revision" : "b685b549fe4d8ae265fc7a2f27d0789720425d69",
+        "version" : "2.10.0"
+      }
+    }
+  ],
+  "version" : 3
+}
